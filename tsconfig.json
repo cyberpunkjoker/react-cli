@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "skipLibCheck": true,
+    // 进行默认导入
+    "allowSyntheticDefaultImports": true,
+    /*  输出的时候移除注释 */
+    "removeComments": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "target": "es2015",
+    "module": "esNext",
+    "lib": ["dom", "es5", "es6", "es2018.promise", "esnext.intl", "es2017.intl", "es2018.intl"]
+  },
+  /* 指定需要编译的文件/目录 */
+  "include": ["src/**/*", "./**/*.ts"],
+  /* 需要排除的文件或目录 */
+  "exclude": ["node_modules", "dist"]
+}
