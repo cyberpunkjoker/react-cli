@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import HookTest from "@/components/hookDemo";
 import './index.less'
 
 const App: React.FC = () => {
@@ -11,7 +12,12 @@ const App: React.FC = () => {
   }, [])
   
 
-  return <h1 className="app">Hello, React with TypeScript!</h1>;
+  return (
+    <>
+      <h1 className="app">Hello, React with TypeScript!</h1>
+      <HookTest></HookTest>
+    </>
+  )
 };
 
 export default App
