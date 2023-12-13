@@ -10,7 +10,7 @@ module.exports = {
     }
   },
   devServer: {
-    host: 'local.jd.com',
+    // host: 'local.jd.com',
     open: true,
     port: 8008,
     historyApiFallback: true,
